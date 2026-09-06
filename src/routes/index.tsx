@@ -19,13 +19,13 @@ import heroKids from "@/assets/hero-kids.jpg";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "VitaMobil — Echipamente premium și tehnologie asistivă" },
+      { title: "ViaLib — Echipamente premium și tehnologie asistivă" },
       {
         name: "description",
         content:
           "Scaune rulante, verticalizatoare, IT asistiv și îmbrăcăminte adaptată. Consultanță gratuită și decontare CAS / Tech Assist.",
       },
-      { property: "og:title", content: "VitaMobil — Echipamente premium și tehnologie asistivă" },
+      { property: "og:title", content: "ViaLib — Echipamente premium și tehnologie asistivă" },
       {
         property: "og:description",
         content:
