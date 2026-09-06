@@ -21,7 +21,7 @@ export function SiteFooter() {
       <div className="mx-auto grid max-w-7xl grid-cols-1 gap-10 px-4 py-16 md:grid-cols-4">
         <div>
           <span className="font-display text-lg font-bold">
-            Vita<span className="text-brand-soft">Mobil</span>
+            Via<span className="text-brand-soft">Lib</span>
           </span>
           <p className="mt-4 max-w-xs text-sm text-navy-foreground/70">
             Lideri în soluții de mobilitate și tehnologie asistivă pentru o viață independentă.
@@ -93,7 +93,7 @@ export function SiteFooter() {
 
       <div className="border-t border-white/10">
         <div className="mx-auto flex max-w-7xl flex-col gap-4 px-4 py-6 text-xs text-navy-foreground/60 md:flex-row md:items-center md:justify-between">
-          <p>© {new Date().getFullYear()} VitaMobil. Toate drepturile rezervate.</p>
+          <p>© {new Date().getFullYear()} ViaLib. Toate drepturile rezervate.</p>
           <div className="flex gap-5">
             <a href="#" className="hover:text-navy-foreground">
               Termeni și Condiții

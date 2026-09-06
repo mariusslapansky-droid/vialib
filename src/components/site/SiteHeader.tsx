@@ -103,7 +103,7 @@ export function SiteHeader({
 
             <a href="/" className="flex items-center gap-2">
               <span className="font-display text-lg font-bold tracking-tight">
-                Vita<span className="text-brand">Mobil</span>
+                Via<span className="text-brand">Lib</span>
               </span>
             </a>
           </div>
