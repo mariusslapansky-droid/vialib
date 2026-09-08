@@ -178,3 +178,26 @@
     display: none;
   }
 }
+
+@layer base {
+  :focus-visible {
+    outline: 2px solid #0056b3;
+    outline-offset: 2px;
+  }
+}
+
+@utility skip-link {
+  position: absolute;
+  left: 1rem;
+  top: -4rem;
+  z-index: 100;
+  border-radius: var(--radius);
+  background-color: var(--navy);
+  color: var(--navy-foreground);
+  padding: 0.75rem 1.25rem;
+  font-weight: 600;
+  transition: top 0.2s ease;
+  &:focus {
+    top: 1rem;
+  }
+}
