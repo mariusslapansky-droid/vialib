@@ -43,7 +43,7 @@ export function SiteHeader({
   onAudienceChange: (a: Audience) => void;
 }) {
   const [open, setOpen] = useState(false);
-  const categories = catalog[audience];
+  const categories = catalog[audience] ?? catalog.adulti;
 
   return (
     <header className="sticky top-0 z-50">
