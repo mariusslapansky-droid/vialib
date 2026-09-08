@@ -88,7 +88,7 @@ const heroContent = {
 
 function Index() {
   const { audience, setAudience } = useAudience();
-  const hero = heroContent[audience];
+  const hero = heroContent[audience] ?? heroContent.adulti;
 
   return (
     <div className="min-h-screen bg-background">

@@ -167,7 +167,7 @@ const categoriesByAudience: Record<
 };
 
 export function CategoryGrid({ audience }: { audience: Audience }) {
-  const cats = categoriesByAudience[audience];
+  const cats = categoriesByAudience[audience] ?? categoriesByAudience.adulti;
   return (
     <section id="categorii" className="px-4 py-14">
       <div className="mx-auto max-w-7xl">
@@ -369,7 +369,7 @@ function ProductCard({ p }: { p: Product }) {
 
 export function ProductCarousel({ audience }: { audience: Audience }) {
   const scroller = useRef<HTMLDivElement>(null);
-  const products = productsByAudience[audience];
+  const products = productsByAudience[audience] ?? productsByAudience.adulti;
 
   const scrollBy = (dir: number) =>
     scroller.current?.scrollBy({ left: dir * 340, behavior: "smooth" });
